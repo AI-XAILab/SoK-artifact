@@ -1,0 +1,17 @@
+code,operational_definition
+direct security evidence,"Explicit adversary, attack success measure, security threat, or defense."
+direct reliability evidence,"Evaluates a failure mode such as semantic misalignment, instability, noisy concepts, or non-identifiability that can undermine an audit without a malicious actor."
+direct verification evidence,Proves a property about an explanation or model under explicit assumptions.
+boundary evidence,Post-hoc XAI/privacy result used to establish a mechanism or transfer question; not direct proof about intrinsic carriers.
+secondary evidence,"Survey, SoK, or evaluation resource used for search seeding, comparison, or metric context."
+predictive integrity (P1),Final prediction resists malicious or selective change under the stated threat model.
+carrier integrity (P2),Explanatory state cannot be arbitrarily changed while prediction is preserved or made plausible while prediction changes.
+semantic alignment (P3),Displayed carrier corresponds to the human meaning it claims to represent.
+intervention safety (P4),"Edits to writable carrier state have bounded, intended, authorized effects."
+audit reliability (P5),Evidence is stable/reproducible/certifiable enough for repeatable auditing.
+confidentiality (P6),Exposing carrier state does not cause unacceptable model/training/private information leakage.
+direct (per-paper ICS status),"Assign ONLY after a named original study explicitly measures/tests the given ICS property. Record source page, setup, and outcome."
+adjacent (per-paper ICS status),Assign ONLY after original-source inspection confirms a finding that informs but does not directly test the ICS property.
+not evaluated / unknown,Absence of a code in the manuscript is not evidence of absence in the original paper; unknown remains unless explicitly supported by a source passage.
+source verification rule,"The submitting author reports reviewing all cited sources. That author statement differs from automated CSV/PDF title agreement, independent publisher metadata checks, and per-claim source-page citations; see the separate fields and review statement."
+family matrix distinction,"Appendix D Table XII columns Input, Poison/Backdoor, Semantic, Intervene, Privacy, Verify are evidence loci, not a one-to-one mapping to P1-P6 ICS contract properties."
