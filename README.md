@@ -1,4 +1,4 @@
-# SoK: Interpretable by Design, Secure by Design? — Anonymous Research Artifact
+# SoK: Interpretable by Design, Secure by Design?
 
 This repository accompanies the anonymized Systematization of Knowledge (SoK) manuscript **“Interpretable by Design, Secure by Design?”**.
 
